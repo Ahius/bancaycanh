@@ -1,79 +1,64 @@
 export default function Terms() {
-    return (
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <h1 className="text-3xl font-bold mb-8">Điều khoản và Điều kiện</h1>
+  return (
+    <div className="container mx-auto px-6 py-10 max-w-4xl bg-green-50 rounded-xl shadow-lg border border-green-200 mt-10 mb-10">
+      <h1 className="text-4xl font-bold text-green-800 mb-6 text-center">Điều khoản & Điều kiện</h1>
+      
+      <div className="prose max-w-none text-green-900">
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">1. Giới thiệu</h2>
+          <p className="text-gray-800">
+            Chào mừng bạn đến với GreenStore - nơi cung cấp những loại cây xanh tuyệt vời cho ngôi nhà của bạn. 
+            Khi sử dụng website của chúng tôi, bạn đồng ý với các điều khoản dưới đây.
+          </p>
+        </section>
         
-        <div className="prose max-w-none">
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Giới thiệu</h2>
-            <p className="text-gray-700 mb-4">
-              Chào mừng bạn đến với TechStore. Bằng cách truy cập và sử dụng website của chúng tôi, 
-              bạn đồng ý tuân thủ và bị ràng buộc bởi các điều khoản và điều kiện sử dụng được nêu 
-              dưới đây.
-            </p>
-          </section>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Sử dụng website</h2>
-            <p className="text-gray-700 mb-4">
-              Bạn đồng ý sử dụng website này chỉ cho các mục đích hợp pháp và phù hợp với các điều 
-              khoản và điều kiện này. Bạn không được sử dụng website để:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-              <li>Thực hiện bất kỳ hành vi nào vi phạm pháp luật hiện hành</li>
-              <li>Đăng tải hoặc truyền bá nội dung không phù hợp, xúc phạm hoặc bất hợp pháp</li>
-              <li>Xâm phạm quyền riêng tư của người khác</li>
-              <li>Gây rối hoặc làm gián đoạn hoạt động của website</li>
-            </ul>
-          </section>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. Tài khoản người dùng</h2>
-            <p className="text-gray-700 mb-4">
-              Nếu bạn tạo tài khoản trên website của chúng tôi, bạn có trách nhiệm bảo mật thông tin 
-              tài khoản và mật khẩu của mình. Bạn đồng ý chịu trách nhiệm cho tất cả các hoạt động 
-              xảy ra dưới tài khoản của bạn.
-            </p>
-          </section>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">4. Mua hàng và thanh toán</h2>
-            <p className="text-gray-700 mb-4">
-              Tất cả các giao dịch mua bán thông qua website này phải tuân thủ các điều khoản mua 
-              hàng của chúng tôi. Chúng tôi có quyền từ chối hoặc hủy bỏ bất kỳ đơn hàng nào vì 
-              bất kỳ lý do gì, bao gồm nhưng không giới hạn ở các vấn đề về sản phẩm, giá cả, 
-              hoặc lỗi thông tin.
-            </p>
-          </section>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Quyền sở hữu trí tuệ</h2>
-            <p className="text-gray-700 mb-4">
-              Tất cả nội dung trên website này, bao gồm nhưng không giới hạn ở văn bản, đồ họa, 
-              logo, hình ảnh, là tài sản của chúng tôi hoặc được cấp phép sử dụng và được bảo vệ 
-              bởi luật bản quyền. Bạn không được sao chép, phân phối hoặc sử dụng bất kỳ nội dung 
-              nào mà không có sự cho phép bằng văn bản của chúng tôi.
-            </p>
-          </section>
-          
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">6. Thay đổi điều khoản</h2>
-            <p className="text-gray-700 mb-4">
-              Chúng tôi có quyền sửa đổi các điều khoản và điều kiện này vào bất kỳ lúc nào. 
-              Những thay đổi sẽ có hiệu lực ngay khi được đăng tải trên website. Việc bạn tiếp tục 
-              sử dụng website sau khi có các thay đổi đồng nghĩa với việc bạn chấp nhận các thay 
-              đổi đó.
-            </p>
-          </section>
-          
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">7. Liên hệ</h2>
-            <p className="text-gray-700">
-              Nếu bạn có bất kỳ câu hỏi nào về các điều khoản và điều kiện này, vui lòng liên hệ 
-              với chúng tôi thông qua trang liên hệ trên website.
-            </p>
-          </section>
-        </div>
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">2. Sử dụng website</h2>
+          <p className="text-gray-800">
+            Bạn đồng ý sử dụng website một cách có trách nhiệm và không thực hiện các hành vi gây hại.
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-800">
+            <li>Không đăng tải nội dung không phù hợp.</li>
+            <li>Không xâm phạm quyền riêng tư của người khác.</li>
+            <li>Không làm gián đoạn hoạt động của website.</li>
+          </ul>
+        </section>
+        
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">3. Tài khoản người dùng</h2>
+          <p className="text-gray-800">
+            Khi tạo tài khoản tại GreenStore, bạn chịu trách nhiệm bảo mật thông tin cá nhân và mật khẩu.
+          </p>
+        </section>
+        
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">4. Mua hàng và thanh toán</h2>
+          <p className="text-gray-800">
+            Chúng tôi cam kết cung cấp sản phẩm chất lượng. Tuy nhiên, đơn hàng có thể bị hủy nếu có lỗi về giá hoặc tồn kho.
+          </p>
+        </section>
+        
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">5. Quyền sở hữu trí tuệ</h2>
+          <p className="text-gray-800">
+            Nội dung trên GreenStore thuộc quyền sở hữu của chúng tôi và không được sao chép khi chưa có sự cho phép.
+          </p>
+        </section>
+        
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">6. Thay đổi điều khoản</h2>
+          <p className="text-gray-800">
+            GreenStore có quyền sửa đổi các điều khoản bất cứ lúc nào. Hãy thường xuyên cập nhật để biết các thay đổi mới nhất.
+          </p>
+        </section>
+        
+        <section className="text-center">
+          <h2 className="text-2xl font-semibold text-green-700 mb-4">7. Liên hệ</h2>
+          <p className="text-gray-800">
+            Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi qua email hoặc số điện thoại trên website.
+          </p>
+        </section>
       </div>
-    );
-  }
+    </div>
+  );
+}

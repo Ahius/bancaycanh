@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 import FAQ from './pages/FAQ';
+import CustomerPolicy from './pages/CustomerPolicy';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/cuspolicy" element={<CustomerPolicy />} />
           </Routes>
         </main>
         

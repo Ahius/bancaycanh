@@ -1,3 +1,7 @@
+import Vy1 from "../assets/Vy1.jpg";
+
+import Vy2 from "../assets/Vy2.jpg";
+import Vy3 from "../assets/Vy3.jpg";
 export default function About() {
   return (
     <div className="bg-white">
@@ -210,58 +214,52 @@ export default function About() {
         </section>
 
         {/* Team Section */}
-        {/* <section className="py-12">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-            Đội ngũ của chúng tôi
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                name: "Anh Chách",
-                role: "Chuyên gia cây cảnh",
-                desc: "10 năm kinh nghiệm trong lĩnh vực trồng và chăm sóc cây cảnh nội thất",
-                img: "https://nld.mediacdn.vn/thumb_w/698/2020/9/23/hoo1403-1600769609391337398991-1600824814143647303103-crop-16008249755862069103195.jpg",
-              },
-              {
-                name: "Anh Vi Khuẩn",
-                role: "Thiết kế không gian xanh",
-                desc: "Chuyên gia tư vấn phong thủy và thiết kế cảnh quan",
-                img: "https://i.ex-cdn.com/vietpress.vn/files/content/2025/03/23/viruss-2244.jpg",
-              },
-              {
-                name: "Anh Đàm",
-                role: "Chăm sóc khách hàng",
-                desc: "Luôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc của khách hàng",
-                img: "https://kenh14cdn.com/k:zVtX15ebeaY8dtY6kEacMnBBQYE3NJ/Image/2013/10/3-a30f3/tron-bo-anh-dam-cuoi-cua-co-dau-giong-het-dam-vinh-hung.jpg",
-              },
-            ].map((member, index) => (
-              <div
-                key={index}
-                className="group bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition duration-300 flex flex-col h-full"
-              >
-              
-                <div className="relative pt-[80%] overflow-hidden">
-                  <img
-                    src={member.img}
-                    alt={member.name}
-                    className="absolute inset-0 w-[400] h-[300] object-cover group-hover:scale-105 transition duration-500"
-                  />
-                </div>
+        <section className="py-12">
+  <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
+    Đội ngũ của chúng tôi
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {[
+      {
+        name: "Kim chủ tịch",
+        role: "Người sáng lập, chuyên gia cây cảnh",
+        desc: "10 năm kinh nghiệm trong lĩnh vực trồng và chăm sóc cây cảnh nội thất",
+        img: Vy1,
+      },
+      {
+        name: "Kim chi",
+        role: "Thiết kế không gian xanh",
+        desc: "Chuyên gia tư vấn phong thủy và thiết kế cảnh quan",
+        img: Vy2,
+      },
+      {
+        name: "Kim Vieon",
+        role: "Chăm sóc khách hàng",
+        desc: "Luôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc của khách hàng",
+        img: Vy3,
+      },
+    ].map((member, index) => (
+      <div
+        key={index}
+        className="group bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition duration-300 flex flex-col h-full"
+      >
+        <div className="relative pt-[80%] overflow-hidden">
+          <img
+            src={member.img}
+            alt={member.name}
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
+          />
+        </div>
 
-              
-                <div className="p-4 flex-grow">
-                  <h3 className="text-lg font-bold text-gray-800">
-                    {member.name}
-                  </h3>
-                  <p className="text-[#0e6655] font-medium text-sm mb-2">
-                    {member.role}
-                  </p>
-                  <p className="text-gray-600 text-sm">{member.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section> */}
+        <div className="p-4 flex-grow">
+          <h3 className="text-lg font-bold text-gray-800">{member.name}</h3>
+          <p className="text-[#0e6655] font-medium text-sm mb-2">{member.role}</p>
+          <p className="text-gray-600 text-sm">{member.desc}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>;
       </div>
     </div>
   );

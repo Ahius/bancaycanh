@@ -28,7 +28,7 @@ export default function FAQ() {
   
     return (
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <h1 className="text-3xl font-bold mb-8">Câu hỏi thường gặp (FAQ)</h1>
+        <h1 className="text-3xl font-bold mb-8 text-green-800">Câu hỏi thường gặp (FAQ)</h1>
         
         <div className="space-y-6">
           {faqs.map((faq, index) => (
@@ -47,7 +47,7 @@ export default function FAQ() {
           </p>
           <a 
             href="/contact" 
-            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+            className="inline-block bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition"
           >
             Liên hệ ngay
           </a>

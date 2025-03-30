@@ -2,7 +2,7 @@ export default function Privacy() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
       <div className="bg-green-50 rounded-xl p-8 mb-12 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">Chính sách Bảo mật</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-green-800 mb-2">Chính sách Bảo mật</h1>
         <p className="text-lg text-gray-600">Cam kết bảo vệ thông tin khách hàng</p>
       </div>
       
@@ -32,7 +32,7 @@ export default function Privacy() {
           
           <div className="mt-12 border-t pt-8">
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Cam kết của chúng tôi</h3>
-            <p className="text-gray-700 mb-4">MOW Garden cam kết bảo vệ tuyệt đối thông tin cá nhân của khách hàng theo chính sách bảo mật này và các quy định của pháp luật Việt Nam.</p>
+            <p className="text-gray-700 mb-4">Bạn của lá cam kết bảo vệ tuyệt đối thông tin cá nhân của khách hàng theo chính sách bảo mật này và các quy định của pháp luật Việt Nam.</p>
           </div>
         </div>
       </div>
